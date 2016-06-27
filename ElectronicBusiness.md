@@ -3,15 +3,15 @@
 * 题型判断 10；天空20-30；简答20-30；论述10-20；设计10 
 
 ###Chapter 1
-1. 电子商务系统开发的周期模型与**螺旋模型**相似
+1. 电子商务系统开发的周期模型与**螺旋模型**相似<br>
   ![model](./imgs/ebusiness0.jpg) 
 2. E-business applications requirements:
  * Improve time to market
  * Access a broader base of customers and suppliers
  * Improve efficiency
  * Reduce costs
-<A NAME="id13"></a>
-3. 电子商务系统是一种Web应用，与其他Web的应用系统相比主要特点是什么(系统层次组成上分析)
+<A NAME="id13"></A>
+3. 电子商务系统是一种Web应用，与其他Web的应用系统相比主要特点是什么(系统层次组成上分析)<br>
 ![ebusiness1](./imgs/ebusiness1.jpg)
 4. E-Commerce与E-Business 的区别
  * E-Commerce (Electronic commerce or EC)
@@ -53,7 +53,7 @@
 6. Internet、Intranet & Extranet?
  * **Internet**: 是B2C模型的基础，体现随时、随地购物体验
  * **Intranet**: An internal corporate or government network that uses Internet tools, such as Web browsers, and Internet protocols.是B2B的基础，公司和产品的信息中心，公司内部信息交换，用防火墙把费雇员隔离在外面。
- * **Extranet**: A network that uses the Internet to link multiple intranets. 将经销商、承包商、供应商和主要客户联系起来，在更大的社区内开展电子商务的一个共享内联网。
+ * **Extranet**: A network that uses the Internet to link multiple intranets. 将经销商、承包商、供应商和主要客户联系起来，在更大的社区内开展电子商务的一个共享内联网。<br>
 ![ebusiness1.5](./imgs/ebusiness1.png)
 7. 构成Web的主要因素
  * Web服务器、浏览器、HTTP(HTTPS)应用协议、HTML(XML)数据格式、URL资源标识机制
@@ -115,12 +115,12 @@
     * 技术：JavaApplets、可下载JavaProgram、ActiveX、browser Plugin
 8. JSP语句类型
  * Directive 指令语句 <%@ include file="xiaoming.html"%>
- * Scripting Element 脚本元素 <%! code %> or XML:<jsp:declaration>code</jsp:declaration>
+ * Scripting Element 脚本元素 `<%! code %> or XML:<jsp:declaration>code</jsp:declaration>`
  * Action 动作语句 <jsp:setProperty ... /> <jsp:useBean .... />
 9. J2EE基于组件模型、其客户端不一定是浏览器、可运行在EJB、WEB容器中，采用了Java设计实现应用系统的规范。
 10. 设计题不用写代码，用图表示各个模块并说明各个模块的作用和实现，哪些模块体现MVC(登陆模块、个人信息管理、显示等等)
 11. 举例说明RIA(Rich Internet Application)对Web应用系统带来的优势和缺点
- * RIA试运行于B/S结构上的C/S应用，具有异步请求、动态加载服务器响应数据、避免频繁刷新页面
+ * RIA试运行于B/S结构上的C/S应用，具有异步请求、动态加载服务器响应数据、避免频繁刷新页面<br>
 ![ebusiness2](./imgs/ebusiness2.jpg)
 * 以Ajax为例：
  * 优点： 在客户端利用JS处理Server的响应，交换数据大量减少，减少Server负担，不更新页面就可以维护数据，不需要任何浏览器插件但是需要用户允许JS的运行
@@ -164,7 +164,7 @@
  * 认证性(Authenticity):为参与交易的个人、企业或者国家提供可靠的标识，防止欺诈(证书机构CA和证书)
  * 不可抵赖性(Non-repudiation)：对交易尸体的身份进行鉴别，为身份真实性提供保证，双方不见面也能确认身份(数字签名)
  * 有效性(可用性)：对各种故障、错误加以控制和预防，保证贸易数据在确定的时刻、确定的地点是有效的。
-2. 单钥和双钥在实现商务系统机密性时各自的特点。
+2. 单钥和双钥在实现商务系统机密性时各自的特点。<br>
 ![ebusiness3](./imgs/ebusiness3.jpg)
 3. 只有在双钥体制中才能进行数字签名么？为什么？
  * 一般是用双钥，但是不一定
@@ -178,7 +178,7 @@
 5. CA是为客户发放和管理数字证书的机构，其本身是否也需要数字证书？(要)
 6. 设计一个安全方案，满足用户A和B之间的通信的不可否认性
  * 注意是A和B之间通信的不可否认性而不是发送方，这边要确认双方的不可否认性，可以采取第三方机制来记录收发的内容，也可以采用一个平台来统一管理
-7. 使用数字签名验证数据完整性的步骤
+7. 使用数字签名验证数据完整性的步骤<br>
 ![ebusiness4](./imgs/ebusiness4.jpg)
 8. SSL如何保证浏览器和服务器之间传递的请求和相应信息的保密性。
 * 保密性：握手之后，采用单钥体制进行数据加密、采用双钥体制进行身份鉴别。
